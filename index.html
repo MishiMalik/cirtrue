@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ==================BOOTSTRAP================= -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <!-- ========================css================= -->
+  <link rel="stylesheet" href="style.css">
+  <!-- ===========font awsome======================= -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- ========================font monchastro=============== -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <!-- -========================ROBOTO FONTS========================= -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>CIRTRU</title>
+</head>
+
+<body>
+  <!-- ==========================navbar===================== -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white  mb-5" id="myHeader">
+    <div class="container-fluid d-flex justify-content-center align-items-center  navbar-part px-3  pt-2" id="shadow">
+      <a class="navbar-brand d-flex" href="#">
+        <img src="images/logo.png" alt="" class="mt-1" id="logo">
+        <div class="brand-name ps-2">
+          <p class="l-name" id="brand-name">cirtru</p>
+          <p class="small-name">circuls of trust</p>
+        </div>
+      </a>
+      <form class="d-flex w-100 small-nav ">
+        <i class="far fa-search search-icon"></i>
+        <input class="form-control nav-input " id="find" type="search" placeholder="where are you moving?"
+          aria-label="Search">
+      </form>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex  align-items-center">
+          <li class="nav-item mx-2">
+            <a class="nav-link active" aria-current="page" href="#">Sign&nbsp;in</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">Log&nbsp;in</a>
+          </li>
+          <li class="nav-item mx-2">
+            <button class="btn  me-2 btn-danger text-white" style="background-color: #E91E63; font-weight: 700;"
+              type="button">Post&nbsp;your&nbsp;room</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <div class="find d-none w-100 header  " style="margin-top: 100px;">
+    <a class="navbar-brand2 d-flex justify-content-center text-decoration-none" href="#">
+      <img src="images/logo.png" alt="" class="mt-1">
+      <div class="brand-name ps-2">
+        <p class="l-name f-40">cirtru</p>
+        <p class="small-name f-15">circuls of trust</p>
+      </div>
+    </a>
+  </div>
+
+  <!-- ===========================main========================= -->
+  <section class="main container">
+    <div class="  row d-flex justify-content-center align-items-center">
+      <div class="col-lg-8 text-center home-text ">
+        <h1 class="">Rent rooms smartly</h1>
+        <h2>Find rooms, roommates & tenants easily, safely, securely</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 p-3">
+        <div class="card-1 img-1">
+          <div class="">
+            <h3>Get a room</h3>
+            <p>Find rooms for rent in 3 steps.<br>Search,Chat,Move</p>
+          </div>
+          <a href="#" class="card-btn">Find Your room</a>
+        </div>
+      </div>
+      <div class="col-lg-6 p-3">
+        <div class="card-1 img-2">
+          <div class="">
+            <h3>Rent out your room</h3>
+            <p>Find roommates and tanants you<br>would trust</p>
+          </div>
+          <a href="#" class="card-btn">Post Your room</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===========================BEst rooms and roommates===================== -->
+  <section class="facts text-center py-5 mb-5">
+    <h1>Get Best Rooms and Roommates</h1>
+    <div class="d-flex justify-content-evenly align-items-center py-2 pt-5 ">
+      <div class="cities">
+        <h1>100+</h1>
+        <h3>Cities</h3>
+      </div>
+
+      <div class="cities">
+        <h1>100k+</h1>
+        <h3>Rooms</h3>
+      </div>
+
+      <div class="cities">
+        <h1>100k+</h1>
+        <h3>Roommates</h3>
+      </div>
+    </div>
+  </section>
+
+
+  <!--===========================Rooms in to cities=====================  -->
+  <section class=" top-rooms  my-5 pt-5">
+    <div class="container">
+      <h2>Find rooms for rent in top cities</h2>
+
+      <div class="row d-flex  rooms-list">
+        <div class="col-lg-3  col-md-6 col-6 px-3 pt-3 col">
+          <figure class="img-div text-center">
+            <img src="images/room1.jpg" alt="img" class="img-fluid">
+            <h3 class="img-caption text-white">San Francisco</h3>
+          </figure>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-6 px-3 pt-3 col">
+          <figure class="img-div text-center">
+            <img src="images/r2.jpg" alt="img" class="img-fluid">
+            <h3 class="img-caption text-white">San Joes</h3>
+          </figure>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-6 px-3 pt-3 col">
+          <figure class="img-div text-center">
+            <img src="images/r3.jpg" alt="img" class="img-fluid">
+            <h3 class="img-caption text-white">Los Angeles</h3>
+          </figure>
+        </div>
+
+        <div class="col-lg-3 col-md-6  col-6 px-3 pt-3 col">
+          <figure class="img-div text-center">
+            <img src="images/r4.jpg" alt="img" class="img-fluid">
+            <h3 class="img-caption text-white">San Francisco</h3>
+          </figure>
+        </div>
+
+        <div class="col-lg-3 col-md-6  col-6  px-3 pt-3 col">
+          <figure class="img-div text-center">
+            <img src="images/r5.jpg" alt="img" class="img-fluid">
+            <h3 class="img-caption text-white">New York City</h3>
+          </figure>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-6 px-3 pt-3 col">
+          <figure class="img-div text-center">
+            <img src="images/r6.jpg" alt="img" class="img-fluid">
+            <h3 class="img-caption text-white">Jersy City</h3>
+          </figure>
+        </div>
+
+        <div class="col-lg-3 col-md-6  col-6 px-3 pt-3 col">
+          <figure class="img-div text-center">
+            <img src="images/r7.jpg" alt="img" class="img-fluid">
+            <h3 class="img-caption text-white">Washington DC</h3>
+          </figure>
+        </div>
+
+        <div class="col-lg-3 col-md-6  col-6 px-3 pt-3 col">
+          <figure class="img-div text-center">
+            <img src="images/r8.jpg" alt="img" class="img-fluid">
+            <h3 class="img-caption text-white">Atlanta</h3>
+          </figure>
+        </div>
+
+        <div class="col-lg-3 col-md-6  col-6 px-3 pt-3 col">
+          <figure class="img-div text-center">
+            <img src="images/r9.jpg" alt="img" class="img-fluid">
+            <h3 class="img-caption text-white">Chicaga</h3>
+          </figure>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6  col-6 px-3 pt-3 col">
+          <figure class="img-div text-center">
+            <img src="images/r10.jpg" alt="img" class="img-fluid">
+            <h3 class="img-caption text-white">Boston</h3>
+          </figure>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-6 px-3 pt-3 col">
+          <figure class="img-div text-center">
+            <img src="images/r11.jpg" alt="img" class="img-fluid">
+            <h3 class="img-caption text-white">Dallas</h3>
+          </figure>
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6  px-3 pt-3 col">
+          <figure class="img-div text-center">
+            <img src="images/r12.jpg" alt="img" class="img-fluid">
+            <h3 class="img-caption text-white ">Seattle</h3>
+          </figure>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  </section>
+
+  <!-- ===========================Three easy steps=========================== -->
+
+  <section class=" steps">
+    <div class="container">
+      <div class="row d-flex justify-content-center ">
+        <div class="col-lg-10">
+          <h2>Find your room for rent in 3 easy steps</h2>
+
+          <div class="row mt-3">
+            <div class="col-lg-4 mt-5">
+              <div class="card border-0">
+                <div class="step_num">
+                  <h3>1</h3>
+                </div>
+                <h1 class="step-heading">
+                  Search Rental rooms
+                </h1>
+                <p class="step-text">
+                  Quickly shortlist rooms based on rent, amenities, lifestyle preferences
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-5">
+              <div class="card border-0">
+                <div class="step_num">
+                  <h3>2</h3>
+                </div>
+                <h1 class="step-heading">
+                  Connect via chat
+                </h1>
+                <p class="step-text">
+                  Connect with room providers and chat within Cirtru Inbox effortlessly.
+                </p>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-5">
+              <div class="card border-0">
+                <div class="step_num">
+                  <h3>3</h3>
+                </div>
+                <h1 class="step-heading">
+                  Get your room
+                </h1>
+                <p class="step-text">
+                  Select your best room and move in a place you can call home.
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <a href="#" class="card-btn2">Find Your room</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===========================Rent out your room in 3 easy steps =========================== -->
+
+  <section class=" steps mt-5">
+    <div class="container">
+      <div class="row d-flex justify-content-center ">
+        <div class="col-lg-10">
+          <h2><a href="#" class="text-decoration-none text-dark">Rent out your room in 3 easy steps</a>
+          </h2>
+
+          <div class="row mt-3">
+            <div class="col-lg-4 mt-5">
+              <div class="card border-0">
+                <div class="step_num">
+                  <h3>1</h3>
+                </div>
+                <h1 class="step-heading">
+                  Post your room
+                </h1>
+                <p class="step-text">
+                  In a few minutes, you can easily post your room for rent on Cirtru.
+                </p>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-5">
+              <div class="card border-0">
+                <div class="step_num">
+                  <h3>2</h3>
+                </div>
+                <h1 class="step-heading">
+                  Get inquiries
+                </h1>
+                <p class="step-text">
+                  Manage unlimited inquiries from your Cirtru Inbox, effortlessly.
+                </p>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-5">
+              <div class="card border-0">
+                <div class="step_num">
+                  <h3>3</h3>
+                </div>
+                <h2 class="step-heading small-heading">
+                  Welcome the right person
+                </h2>
+                <p class="step-text">
+                  No second guess. Choose the ideal roommate to rent out your room.
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <a href="#" class="card-btn2">Find Your room</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================Testinomial========================== -->
+  <section class="testinomial mt-5">
+    <div class="container">
+      <div class="row  d-flex justify-content-center">
+        <div class="col-lg-10 mt-5">
+          <h2>Testinomial</h2>
+          <div class="row mt-5">
+            <div class="col-lg-6 col-md-6 col-12">
+              <img src="images/tm_1.webp" alt="" class="img-fluid w-100">
+            </div>
+            <div
+              class="col-lg-6 col-md-6 col-12 d-flex justify-content-start flex-column my-auto px-5 testinomial-data">
+              <div class="testimonial-text">
+                The high response rate got me to use Cirtru for the third time. I found a great roommate all the three
+                times!
+              </div>
+              <a href="#" class="card-btn2">Read more Reviews</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================features in press====================== -->
+
+  <section class="features mt-5">
+    <div class="container mt-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-9 text-center mt-5">
+          <h2>Featured in the press</h2>
+
+
+          <div class="names d-flex justify-content-evenly align-items-center flex-wrap ">
+            <div class="name">
+              <img src="images/n1.webp" alt="" class="img-fluid">
+            </div>
+            <div class="name">
+              <img src="images/n2.webp" alt="" class="img-fluid">
+            </div>
+            <div class="name">
+              <img src="images/n3.webp" alt="" class="img-fluid">
+            </div>
+            <div class="name name2">
+              <img src="images/n4.webp" alt="" class="img-fluid">
+            </div>
+            <div class="name">
+              <img src="images/n5.webp" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================circuit works========================== -->
+  <section class="work mt-5">
+    <div class="container">
+      <div class="row  d-flex justify-content-center">
+        <div class="col-lg-10 mt-5">
+          <h2>Why Cirtru works?</h2>
+          <p class="roboto mt-4">At Cirtru, our mission is to help you rent a room easily, safely & securely. There are
+            many options to find apartments for rent but when it comes to finding a room for rent, people only prefer
+            Cirtru. If you are a landlord, follow this guide published by Cirtru to <a href="#"
+              style="color: #E91E63; text-decoration: none;">rent out a room in your house successfully.</a></p>
+          <p class="roboto">Whether you are looking for a private room for rent near you or a furnished room for rent,
+            your personalized search results will always show you the best rooms for rent in houses based on your
+            lifestyle preferences, lease terms, pricing, move-in date, and much more.</p>
+          <p class="roboto">If you are working on a budget to find cheapest rooms for rent near you, and if you are fine
+            with living in a shared room for rent, then Citru filters will assist you in finding shared housing that is
+            not only pocket friendly but also inviting. Cirtru is also the best website to search for pet friendly rooms
+            for rent and it has a large selection of couple friendly rooms for rent too. Just make sure that you apply
+            pets ok or couples ok in the filter.</p>
+          <p class="roboto">With virtual tours of verified rooms listed on Cirtru, you have the flexibility of safely
+            renting the room from the comfort of your couch. Cirtru helps you find an ideal match you deserve and never
+            settle for less. Cirtru is consistently ranked the best <a href="#" style="color: #E91E63; text-decoration: none;">roommate
+              finder</a>.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============question-card====================== -->
+  <section class="question mt-5">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-10">
+          <div class="row ">
+            <div class="col-lg-6 p-2">
+              <div class="card p-4 q-card">
+                <h3>Need a room for rent?</h3>
+                <p>Find your rental room in a place you can call home.</p>
+                <a href="#" class="card-btn2 full-btn">Read more Reviews</a>
+              </div>
+            </div>
+            <div class="col-lg-6 p-2">
+              <div class="card p-4 q-card">
+                <h3>Need a room for rent?</h3>
+                <p>Find your rental room in a place you can call home.</p>
+                <a href="#" class="card-btn2 full-btn">Read more Reviews</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===================sticky button================================= -->
+
+  <div class="container sticky-btn-div ">
+
+    <a href="#" class="card-btn2 sticky-btn d-none">Find Your room</a>
+
+  </div>
+
+  <!-- ========================footer===================== -->
+  <footer>
+    <div class="footer-nav py-3">
+      <div class="container ">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class=" col-lg-8  col-md-12">
+                <ul class="footer-items list-unstyled d-flex flex-wrap">
+                  <li class="nav-item"><a href="#">Home</a></li>
+                  <li class="nav-item"><a href="#">Post room</a></li>
+                  <li class="nav-item"><a href="#">Roommates</a></li>
+                  <li class="nav-item"><a href="#">Blog</a></li>
+                  <li class="nav-item"><a href="#">FAQ</a></li>
+                  <li class="nav-item"><a href="#">About</a></li>
+                  <li class="nav-item"><a href="#">Reviews</a></li>
+                  <li class="nav-item"><a href="#">Privacy</a></li>
+                  <li class="nav-item"><a href="#">Terms</a></li>
+                  <li class="nav-item"><a href="#">Contaxt us</a></li>
+                  <li class="nav-item"><a href="#">Sitemap</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-12">
+                <ul class="footer-items  list-unstyled d-flex justify-content-end icons-list">
+                  <li class="nav-item2"><a href="#">P</a></li>
+                  <li class="nav-item2"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li class="nav-item2"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li class="nav-item2"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li class="nav-item2"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+
+            <hr style="height:1px; background-color:white; z-index: 1000; padding: 0px; margin-top: -5px;">
+            <div class="year py-3">
+              <div class="text-white foot-date">
+                <b>© 2021 Cirtru Classifieds, Inc. | United States</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ====================footer nav==================== -->
+
+  <section class="sticky-footer p-2 d-none">
+    <div class="ul list-unstyled d-flex justify-content-center align-items-center footer-list w-100">
+      <li class="footer-item px-4">
+        <div class="item-div d-flex flex-column justify-content-center align-items-center">
+          <i class=" fas fa-home foot2-icon foot-active"></i>
+          <a class=" m-0 f-12 foot-active text-decoration-none">HOME</a>
+        </div>
+      </li>
+
+      <li class="footer-item px-4">
+        <div class="item-div d-flex flex-column justify-content-center align-items-center">
+          <i class="far fa-search foot2-icon"></i>
+          <a class="m-0 f-12 text-decoration-none">FIND ROOM</a>
+        </div>
+      </li>
+
+
+      <li class="footer-item px-4">
+        <div class="item-div d-flex flex-column justify-content-center align-items-center">
+          <i class="far fa-plus-square foot2-icon"></i>
+          <a href="#" class="m-0 f-12 text-decoration-none">POST ROOM</a>
+        </div>
+      </li>
+
+      <li class="footer-item px-4">
+        <div class="item-div d-flex flex-column justify-content-center align-items-center">
+          <i class="fas fa-user foot2-icon"></i>
+          <a href="#" class="m-0 f-12 text-decoration-none">LOG IN</a>
+        </div>
+      </li>
+    </div>
+  </section>
+
+
+
+  <!--==================BOOTSTRAP================= -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"></script>
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script>
+
+    $(window).ready(function () {
+      if ($(window).width() < 990 ) {
+        window.onscroll = function () { myFunction() };
+        var header = document.getElementById("myHeader");
+        var find = document.getElementById("find");
+        var shadow = document.getElementById("shadow");
+        var sticky = header.offsetTop;
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+            find.classList.add("bg-gray");
+            shadow.classList.add("box-shadow");
+
+          } else {
+            header.classList.remove("sticky");
+            find.classList.remove("bg-gray");
+            shadow.classList.remove("box-shadow")
+
+          }
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>

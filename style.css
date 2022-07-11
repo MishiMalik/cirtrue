@@ -1,0 +1,692 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* ======================fonts========================= */
+
+/* ======================navbar==================== */
+.navbar {
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+
+.navbar-part {
+    box-shadow: rgba(0, 0, 0, .08) 0 1px 12px !important;
+    padding: 0px;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-brand2 img {
+    height: 50px;
+}
+
+.l-name {
+    font-size: 35px;
+    color: #0076db;
+    margin-top: -10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.small-name {
+    font-size: 13px;
+    display: block;
+    color: #0076db;
+    margin-top: -25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.f-40 {
+    font-size: 40px !important;
+}
+
+.f-15 {
+    font-size: 15px !important;
+}
+
+.nav-input {
+    margin-top: -10px;
+    font-size: 17px;
+    border: 0;
+    font-weight: 500;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 10px 20px 10px 35px !important;
+    width: 350px;
+    /* background: transparent !important; */
+}
+
+.nav-input:hover {
+    border: 1px solid #a9a9a9;
+}
+
+.nav-input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1;
+    /* Firefox */
+}
+
+.search-icon {
+    font-size: 14px;
+    color: #E91E63;
+    margin-right: -35px;
+    position: relative;
+    padding: 10px;
+    font-weight: 900;
+    margin-bottom: 10px !important;
+}
+
+.nav-list {
+    /* width: 35%; */
+    padding: 0px 10px;
+    margin-bottom: -3px;
+
+}
+
+.nav-link {
+    font-size: 15px !important;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0076db !important;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.find-input {
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 2;
+    width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+.content {
+    padding-top: 100px;
+
+}
+
+/* .find .fa-search{
+    font-size: 14px;
+    color: rgb(2, 2, 146);
+    margin-right: -35px;
+    position: relative;
+    padding: 10px;
+    font-weight: 900;
+    margin-bottom: -5px !important;
+} */
+.bg-gray {
+    background: linear-gradient(to right, #f0f0f0 0, #e8e8e8 100%);
+}
+
+
+
+
+
+
+
+
+
+/* main section */
+.main {
+    margin-top: 120px;
+}
+
+.home-text h1 {
+    color: #484848;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.home-text h2 {
+    color: #616161;
+    margin-top: 15px;
+    font-size: 28px;
+    margin-bottom: 60px;
+}
+
+/* card section */
+.img-1 {
+    background-image: url("images/listroom.jpeg");
+}
+
+.img-2 {
+    background-image: url("images/findroom.jpeg");
+}
+
+.card-1 {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    min-height: 300px;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px 0 rgb(51 51 51 / 8%);
+    margin-bottom: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    transition: .125s linear;
+}
+
+.card-1:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 32px 0 rgb(51 51 51 / 24%);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.card-1 h3 {
+    color: black;
+    font-weight: 700;
+}
+
+.card-1 p {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-btn {
+    display: inline;
+    font-size: 20px !important;
+    text-decoration: none !important;
+    background-color: #E91E63;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+    text-align: center;
+    padding: 15px !important;
+}
+
+.card-btn:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* facts section */
+.facts {
+    background-color: #0076db;
+}
+
+.facts h1 {
+    font-size: 56px;
+    color: #fff;
+    font-weight: 700
+}
+
+.facts h3 {
+    color: white;
+}
+
+
+
+/* top rooms */
+.top-rooms h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.img-div {
+    position: relative;
+    z-index: 10;
+}
+
+.img-div img {
+    border-radius: 5px;
+}
+
+.img-caption {
+    position: absolute;
+    bottom: 0;
+    left: 12%;
+    z-index: 20;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Three easy steps */
+.steps h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.step_num {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #E91E63;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+}
+
+.step-heading {
+    font-size: 24px;
+    margin: 24px 0 8px 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.small-heading {
+    font-size: 22px !important;
+
+}
+
+.step-text {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 23px 0 10px;
+    line-height: 25px;
+    color: #757575;
+}
+
+.card-btn2 {
+    display: inline;
+    font-size: 18px !important;
+    text-decoration: none !important;
+    background-color: #E91E63;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    overflow: hidden;
+    position: relative;
+    width: 180px;
+    text-align: center;
+    padding: 10px 5px !important;
+    margin-top: 10px;
+}
+
+.card-btn2:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* Testinomial */
+
+.testinomial h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.testimonial-text {
+    font-style: italic;
+    font-size: 24px !important;
+    line-height: 32px !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
+    font-weight: bold;
+}
+
+/* features */
+.features h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #484848
+}
+
+.name {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.name img {
+    width: 128px;
+    filter: grayscale(100%);
+}
+
+.name2 img {
+    width: 70px;
+    filter: grayscale(100%);
+}
+
+
+
+/* work */
+.work h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #484848;
+}
+
+.roboto {
+    font-family: Roboto, Arial, sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    color: black;
+}
+
+.full-btn {
+    width: auto !important;
+}
+
+.q-card {
+    border-color: rgba(0, 0, 0, .02) !important;
+    border-image: initial !important;
+    border-radius: 12px !important;
+    box-shadow: rgba(0, 0, 0, .15) 0 2px 8px !important;
+    padding: 20px 20px 30px;
+    margin-bottom: 30px;
+}
+
+
+/* footer */
+.footer-nav {
+    background-color: #0076db;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 18px 8px !important;
+}
+
+.nav-item2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 8px !important;
+}
+
+.foot-icon {
+    color: white;
+    font-size: 16px;
+}
+
+/* sticky btn */
+
+.sticky-btn {
+    position: fixed;
+    right: 30px;
+    bottom: 80px;
+    z-index: 100000;
+}
+
+/* sticky footer */
+.foot2-icon {
+    font-size: 23px !important;
+}
+
+.foot-active {
+    color: #E91E63 !important;
+}
+
+.f-12 {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 300000;
+}
+
+.form-control:focus {
+
+    border-color: black !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Responsive */
+@media only screen and (max-width: 990px) {
+    .find {
+        display: block !important;
+    }
+
+    .nav-input {
+        font-size: 17px;
+        border: 0;
+        font-weight: 500;
+        color: black;
+        border: 1px solid #ddd;
+        padding: 8px 20px 8px 35px !important;
+        border-radius: 50px !important;
+        margin: 5px 5px 5px 5px;
+        width: 90vw;
+        text-align: center;
+    }
+
+    .search-icon {
+        font-size: 14px;
+        color: #E91E63;
+        margin-right: -40px;
+        position: relative;
+        padding: 10px;
+        font-weight: 900;
+        margin-top: 14px !important;
+    }
+
+    .navbar-brand {
+        display: none !important;
+    }
+
+    .navbar-part {
+        /* box-shadow: rgba(0,0,0,.08) 0 1px 12px!important; */
+        box-shadow: none !important;
+        padding-top: 0px !important;
+        
+    }
+
+    .box-shadow {
+        box-shadow: rgba(0, 0, 0, .08) 0 1px 12px !important;
+    }
+
+    .main {
+        margin-top: 20px;
+    }
+
+    .sticky-btn {
+        display: block !important;
+    }
+
+    .sticky-footer {
+        display: block !important;
+    }
+
+    .footer-nav {
+        margin-bottom: 55px;
+    }
+
+    .small-nav {
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .facts h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .top-rooms .container {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .rooms-list {
+        overflow-x: scroll;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .img-div img {
+        margin-bottom: -10px;
+    }
+
+    .img-caption {
+        font-size: 20px;
+    }
+
+    .col {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .container,
+    .container-sm {
+        max-width: 100vw;
+    }
+
+
+    /* main */
+    .home-text h1 {
+
+        font-size: 30px;
+
+    }
+
+    .home-text h2 {
+        font-size: 20px;
+    }
+
+    /* testinomial */
+    .testimonial-text {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    .home-text h1 {
+        font-size: 30px;
+    }
+
+    .top-rooms h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .steps h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .testinomial h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .features h2 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #484848
+    }
+
+    .work h2 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #484848;
+    }
+
+    .testinomial-data {
+        padding: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .facts h1 {
+        font-size: 20px;
+    }
+
+    .card-1 {
+        min-height: 190px !important;
+    }
+
+    .card-btn {
+        width: 150px;
+        text-align: center;
+        padding: 10px !important;
+        font-size: 15px !important;
+    }
+
+    .sticky-btn {
+        width: 150px;
+        text-align: center;
+        padding: 10px !important;
+        font-size: 15px !important;
+    }
+
+    .icons-list {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .facts h1 {
+        font-size: 18px;
+    }
+
+    .cities h3,
+    h1 {
+        font-size: 15px;
+    }
+
+    .form-control {
+        width: 90% !important;
+    }
+
+    .foot-date {
+        font-size: 12px;
+    }
+
+    .foot2-icon {
+        font-size: 20px !important;
+    }
+
+    .f-12 {
+        font-size: 10px;
+        font-weight: 700;
+        color: rgb(51, 51, 51);
+    }
+
+    .footer-item {
+        padding: 0 !important;
+    }
+
+    .footer-list {
+        display: flex;
+        justify-content: space-evenly !important;
+    }
+
+    .nav-input {
+        width: 100vw;
+        text-align: center;
+    }
+
+}
